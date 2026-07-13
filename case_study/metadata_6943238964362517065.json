@@ -1,0 +1,376 @@
+{
+  "id": 6943238964362517065,
+  "original": {
+    "file_name": "192.wasm",
+    "file_path": "waplant/seeds/bench2026/192.wasm"
+  },
+  "hole": {
+    "func_idx": 7,
+    "instr_range": [
+      8,
+      14
+    ],
+    "hole_ctx": {
+      "types": {
+        "2": {
+          "kind": "func",
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "1": {
+          "kind": "func",
+          "params": [],
+          "results": [],
+          "fields": null,
+          "element": null
+        },
+        "4": {
+          "kind": "func",
+          "params": [
+            "I32",
+            "I32",
+            "I32",
+            "I32",
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "3": {
+          "kind": "func",
+          "params": [],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "0": {
+          "kind": "func",
+          "params": [
+            "I32"
+          ],
+          "results": [],
+          "fields": null,
+          "element": null
+        },
+        "5": {
+          "kind": "func",
+          "params": [
+            "I32",
+            "I32",
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        }
+      },
+      "locals": {},
+      "globals": {
+        "8": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "9": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "6": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "3": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "12": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "0": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "11": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "13": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "4": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "7": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "2": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "10": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "1": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "5": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        }
+      },
+      "calls": {
+        "8": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "15": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "0": {
+          "params": [
+            "I32"
+          ],
+          "results": []
+        },
+        "11": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "9": {
+          "params": [
+            "I32",
+            "I32",
+            "I32",
+            "I32",
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "7": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "22": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "19": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "20": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "16": {
+          "params": [
+            "I32"
+          ],
+          "results": []
+        },
+        "5": {
+          "params": [
+            "I32"
+          ],
+          "results": []
+        },
+        "14": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "1": {
+          "params": [
+            "I32"
+          ],
+          "results": []
+        },
+        "12": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "10": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "23": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "4": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "21": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "6": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "18": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "17": {
+          "params": [
+            "I32",
+            "I32",
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "2": {
+          "params": [
+            "I32"
+          ],
+          "results": []
+        },
+        "3": {
+          "params": [],
+          "results": []
+        },
+        "13": {
+          "params": [
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ]
+        }
+      },
+      "memories": {
+        "0": {
+          "is_64": false,
+          "shared": false,
+          "imported": false
+        }
+      },
+      "tables": {},
+      "tags": {}
+    },
+    "enclosing_labels": [
+      {
+        "kind": "Block",
+        "arity": [
+          "I32"
+        ]
+      }
+    ]
+  },
+  "contract": {
+    "prestack": [
+      "I32",
+      "I32"
+    ],
+    "poststack": [
+      "I32"
+    ]
+  },
+  "fragment": {
+    "file": "frag_6943238964362517065.bin",
+    "fragment_ctx": {
+      "types": {},
+      "locals": {},
+      "globals": {},
+      "calls": {},
+      "memories": {
+        "0": {
+          "is_64": false,
+          "shared": false,
+          "imported": false
+        }
+      },
+      "tables": {},
+      "tags": {}
+    },
+    "external_branches": {},
+    "open_labels": []
+  },
+  "mock": {
+    "file": "mock_6943238964362517065.wasm"
+  }
+}

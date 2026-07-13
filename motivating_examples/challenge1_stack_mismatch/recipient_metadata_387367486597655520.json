@@ -1,0 +1,148 @@
+{
+  "id": 387367486597655520,
+  "original": {
+    "file_name": "seed_wamr_3210.wasm",
+    "file_path": "waplant/seeds/bench2026/seed_wamr_3210.wasm"
+  },
+  "hole": {
+    "func_idx": 0,
+    "instr_range": [
+      5,
+      12
+    ],
+    "hole_ctx": {
+      "types": {
+        "0": {
+          "kind": "func",
+          "params": [],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "1": {
+          "kind": "func",
+          "params": [
+            "F64",
+            "F64",
+            "I32",
+            "F64",
+            "F32"
+          ],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        }
+      },
+      "locals": {
+        "1": "I64",
+        "0": "I32",
+        "3": "F64",
+        "2": "F32"
+      },
+      "globals": {
+        "0": {
+          "ty": "F64",
+          "mutable": true,
+          "imported": false
+        }
+      },
+      "calls": {
+        "0": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "2": {
+          "params": [
+            "F64",
+            "F64",
+            "I32",
+            "F64",
+            "F32"
+          ],
+          "results": [
+            "I32"
+          ]
+        },
+        "1": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        }
+      },
+      "memories": {
+        "0": {
+          "is_64": false,
+          "shared": false,
+          "imported": false
+        }
+      },
+      "tables": {
+        "0": {
+          "is_64": false,
+          "imported": false,
+          "min": 2,
+          "max": null,
+          "elem_type": {
+            "nullable": true,
+            "abstract_kind": "Func",
+            "shared": false,
+            "concrete": null,
+            "exact": false
+          }
+        }
+      },
+      "tags": {}
+    },
+    "enclosing_labels": [
+      {
+        "kind": "Block",
+        "arity": [
+          "I32"
+        ]
+      }
+    ]
+  },
+  "contract": {
+    "prestack": [
+      "F64",
+      "I32"
+    ],
+    "poststack": [
+      "F64",
+      "F64",
+      "I64"
+    ]
+  },
+  "fragment": {
+    "file": "frag_387367486597655520.bin",
+    "fragment_ctx": {
+      "types": {},
+      "locals": {
+        "3": "F64"
+      },
+      "globals": {},
+      "calls": {},
+      "memories": {
+        "0": {
+          "is_64": false,
+          "shared": false,
+          "imported": false
+        }
+      },
+      "tables": {},
+      "tags": {}
+    },
+    "external_branches": {},
+    "open_labels": []
+  },
+  "mock": {
+    "file": "mock_387367486597655520.wasm"
+  }
+}

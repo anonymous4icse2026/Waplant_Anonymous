@@ -1,0 +1,22 @@
+BugID	IssueLink	Status
+wamr_aot_memleak_gc-init	https://github.com/bytecodealliance/wasm-micro-runtime/issues/4928	reported
+wamr_interp_asan_segv-gcrootset	https://github.com/bytecodealliance/wasm-micro-runtime/issues/4926	reported
+wamr_aot_aborted_null-externref	https://github.com/bytecodealliance/wasm-micro-runtime/issues/4927	reported
+wamr_interp_cls_asan_heapbufferoverflow	https://github.com/bytecodealliance/wasm-micro-runtime/issues/4935	reported
+wamr_all_wasm-aux_stackunderflow	https://github.com/bytecodealliance/wasm-micro-runtime/issues/4941	reported
+wasmer_llvm_no-oob_A (2 bugs acknowledged together. Listed as A/B)	https://github.com/wasmerio/wasmer/issues/6401	fixed
+wasmer_llvm_no-oob_B (2 bugs acknowledged together. Listed as A/B)	https://github.com/wasmerio/wasmer/issues/6401	fixed
+wasmer_asan_traphandler_stackunderflow	https://github.com/wasmerio/wasmer/issues/6524	reported
+wasmer_llvm_panic_coders	https://github.com/wasmerio/wasmer/issues/6537	fixed
+wasmer_asan_internalstorehandle	https://github.com/wasmerio/wasmer/issues/6774	reported
+wasmer_asan_gccthrow_vmthrow	https://github.com/wasmerio/wasmer/issues/6795	reported
+wasmer_asan_vmthrow	https://github.com/wasmerio/wasmer/issues/6793	reported
+wasmer_asan_finishgrow	https://github.com/wasmerio/wasmer/issues/6794	reported
+wasmer_asan_vmtablegrow	https://github.com/wasmerio/wasmer/issues/6775	reported
+wasmer_llvmerror_phidouble	https://github.com/wasmerio/wasmer/issues/6710	fixed
+wasmi_all_panic_externrerf-displayrs	https://github.com/wasmi-labs/wasmi/issues/1838	fixed
+wasmi_eager_panic_modrs	https://github.com/wasmi-labs/wasmi/issues/1845	fixed
+wasm3_asan	https://github.com/wasm3/wasm3/issues/562	confirmed
+wasmedge_jit_interp_asan_heapbufferoverflow_strctget	https://github.com/WasmEdge/WasmEdge/issues/4873	fixed
+wasmedge_interp_asan_heapbufferoverflow_stckmgr-push	https://github.com/WasmEdge/WasmEdge/issues/4872	confirmed
+wazero_interp_panic_readunit32le	https://github.com/wazero/wazero/issues/2505	fixed

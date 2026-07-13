@@ -1,0 +1,115 @@
+{
+  "id": 3529427722592983174,
+  "original": {
+    "file_name": "seed_wamr_2560.wasm",
+    "file_path": "waplant/seeds/bench2026/seed_wamr_2560.wasm"
+  },
+  "hole": {
+    "func_idx": 0,
+    "instr_range": [
+      9,
+      14
+    ],
+    "hole_ctx": {
+      "types": {
+        "0": {
+          "kind": "func",
+          "params": [],
+          "results": [
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128"
+          ],
+          "fields": null,
+          "element": null
+        }
+      },
+      "locals": {
+        "0": "V128"
+      },
+      "globals": {},
+      "calls": {
+        "0": {
+          "params": [],
+          "results": [
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128",
+            "V128"
+          ]
+        }
+      },
+      "memories": {
+        "0": {
+          "is_64": false,
+          "shared": false,
+          "imported": false
+        }
+      },
+      "tables": {},
+      "tags": {}
+    },
+    "enclosing_labels": [
+      {
+        "kind": "Block",
+        "arity": [
+          "V128",
+          "V128",
+          "V128",
+          "V128",
+          "V128",
+          "V128",
+          "V128",
+          "V128",
+          "V128",
+          "V128"
+        ]
+      }
+    ]
+  },
+  "contract": {
+    "prestack": [
+      "V128",
+      "V128",
+      "V128"
+    ],
+    "poststack": [
+      "V128",
+      "V128",
+      "V128",
+      "V128"
+    ]
+  },
+  "fragment": {
+    "file": "frag_3529427722592983174.bin",
+    "fragment_ctx": {
+      "types": {},
+      "locals": {
+        "0": "V128"
+      },
+      "globals": {},
+      "calls": {},
+      "memories": {},
+      "tables": {},
+      "tags": {}
+    },
+    "external_branches": {},
+    "open_labels": []
+  },
+  "mock": {
+    "file": "mock_3529427722592983174.wasm"
+  }
+}

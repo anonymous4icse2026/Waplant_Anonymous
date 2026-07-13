@@ -1,0 +1,62 @@
+=================
+Memory/Functional
+=================
+
+  Memory:
+  --------
+    wamr_aot_memleak_gc-init
+    wamr_interp_asan_segv-gcrootset
+    wamr_interp_cls_asan_heapbufferoverflow
+    wasmer_asan_traphandler_stackunderflow
+    wasmer_asan_internalstorehandle
+    wasmer_asan_gccthrow_vmthrow
+    wasmer_asan_vmthrow
+    wasmer_asan_finishgrow
+    wasmer_asan_vmtablegrow
+    wasm3_asan
+    wasmedge_jit_interp_asan_heapbufferoverflow_strctget
+    wasmedge_interp_asan_heapbufferoverflow_stckmgr-push
+
+  Functional:
+  ------------
+    wamr_aot_aborted_null-externref
+    wamr_all_wasm-aux_stackunderflow
+    wasmer_llvm_no-oob_A (2 bugs acknowledged together. Listed as A/B)
+    wasmer_llvm_no-oob_B (2 bugs acknowledged together. Listed as A/B)
+    wasmer_llvm_panic_coders
+    wasmer_llvmerror_phidouble
+    wasmi_all_panic_externrerf-displayrs
+    wasmi_eager_panic_modrs
+    wazero_interp_panic_readunit32le
+
+
+=================
+Shallow/Deep
+=================
+
+  Shallow:
+  ---------
+    wasmi_all_panic_externrerf-displayrs
+
+  Deep:
+  ------
+    wamr_aot_memleak_gc-init
+    wamr_interp_asan_segv-gcrootset
+    wamr_interp_cls_asan_heapbufferoverflow
+    wasmer_asan_traphandler_stackunderflow
+    wasmer_asan_internalstorehandle
+    wasmer_asan_gccthrow_vmthrow
+    wasmer_asan_vmthrow
+    wasmer_asan_finishgrow
+    wasmer_asan_vmtablegrow
+    wasm3_asan
+    wasmedge_jit_interp_asan_heapbufferoverflow_strctget
+    wasmedge_interp_asan_heapbufferoverflow_stckmgr-push
+    wamr_aot_aborted_null-externref
+    wamr_all_wasm-aux_stackunderflow
+    wasmer_llvm_no-oob_A (2 bugs acknowledged together. Listed as A/B)
+    wasmer_llvm_no-oob_B (2 bugs acknowledged together. Listed as A/B)
+    wasmer_llvm_panic_coders
+    wasmer_llvmerror_phidouble
+    wasmi_eager_panic_modrs
+    wazero_interp_panic_readunit32le

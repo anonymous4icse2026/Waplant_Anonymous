@@ -1,0 +1,347 @@
+{
+  "id": 7465953716347743870,
+  "original": {
+    "file_name": "seed_wamr_2942.wasm",
+    "file_path": "waplant/seeds/bench2026/seed_wamr_2942.wasm"
+  },
+  "hole": {
+    "func_idx": 0,
+    "instr_range": [
+      258,
+      266
+    ],
+    "hole_ctx": {
+      "types": {
+        "3": {
+          "kind": "func",
+          "params": [],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "6": {
+          "kind": "func",
+          "params": [
+            "I64"
+          ],
+          "results": [
+            "I64"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "0": {
+          "kind": "func",
+          "params": [
+            "I32",
+            "I32",
+            "I32",
+            "I32"
+          ],
+          "results": [
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "5": {
+          "kind": "func",
+          "params": [
+            "F64"
+          ],
+          "results": [
+            "F64"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "4": {
+          "kind": "func",
+          "params": [],
+          "results": [
+            "I64"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "7": {
+          "kind": "func",
+          "params": [
+            "F64",
+            "I32",
+            "I32"
+          ],
+          "results": [
+            "I32",
+            "I64",
+            "I32"
+          ],
+          "fields": null,
+          "element": null
+        },
+        "1": {
+          "kind": "func",
+          "params": [
+            "I32"
+          ],
+          "results": [],
+          "fields": null,
+          "element": null
+        },
+        "2": {
+          "kind": "func",
+          "params": [],
+          "results": [],
+          "fields": null,
+          "element": null
+        }
+      },
+      "locals": {
+        "0": "I32",
+        "1": "F32",
+        "2": "I64",
+        "3": "F64"
+      },
+      "globals": {
+        "2": {
+          "ty": "F32",
+          "mutable": false,
+          "imported": false
+        },
+        "10": {
+          "ty": "I64",
+          "mutable": true,
+          "imported": false
+        },
+        "22": {
+          "ty": "V128",
+          "mutable": true,
+          "imported": false
+        },
+        "7": {
+          "ty": "F64",
+          "mutable": true,
+          "imported": false
+        },
+        "21": {
+          "ty": "F64",
+          "mutable": true,
+          "imported": false
+        },
+        "19": {
+          "ty": "I64",
+          "mutable": true,
+          "imported": false
+        },
+        "6": {
+          "ty": "F64",
+          "mutable": false,
+          "imported": false
+        },
+        "9": {
+          "ty": "F32",
+          "mutable": true,
+          "imported": false
+        },
+        "3": {
+          "ty": "F32",
+          "mutable": true,
+          "imported": false
+        },
+        "12": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "24": {
+          "ty": "V128",
+          "mutable": true,
+          "imported": false
+        },
+        "16": {
+          "ty": "V128",
+          "mutable": true,
+          "imported": false
+        },
+        "0": {
+          "ty": "I32",
+          "mutable": false,
+          "imported": false
+        },
+        "17": {
+          "ty": "V128",
+          "mutable": true,
+          "imported": false
+        },
+        "15": {
+          "ty": "F64",
+          "mutable": true,
+          "imported": false
+        },
+        "11": {
+          "ty": "F64",
+          "mutable": true,
+          "imported": false
+        },
+        "14": {
+          "ty": "F32",
+          "mutable": true,
+          "imported": false
+        },
+        "1": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "4": {
+          "ty": "I64",
+          "mutable": false,
+          "imported": false
+        },
+        "18": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "8": {
+          "ty": "I32",
+          "mutable": true,
+          "imported": false
+        },
+        "5": {
+          "ty": "I64",
+          "mutable": true,
+          "imported": false
+        },
+        "13": {
+          "ty": "I64",
+          "mutable": true,
+          "imported": false
+        },
+        "25": {
+          "ty": "V128",
+          "mutable": true,
+          "imported": false
+        },
+        "23": {
+          "ty": "V128",
+          "mutable": true,
+          "imported": false
+        },
+        "20": {
+          "ty": "F32",
+          "mutable": true,
+          "imported": false
+        }
+      },
+      "calls": {
+        "3": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "1": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "2": {
+          "params": [],
+          "results": [
+            "I32"
+          ]
+        },
+        "4": {
+          "params": [],
+          "results": []
+        },
+        "0": {
+          "params": [],
+          "results": [
+            "I64"
+          ]
+        }
+      },
+      "memories": {
+        "0": {
+          "is_64": false,
+          "shared": false,
+          "imported": false
+        }
+      },
+      "tables": {
+        "0": {
+          "is_64": false,
+          "imported": false,
+          "min": 10,
+          "max": 20,
+          "elem_type": {
+            "nullable": true,
+            "abstract_kind": "Func",
+            "shared": false,
+            "concrete": null,
+            "exact": false
+          }
+        }
+      },
+      "tags": {}
+    },
+    "enclosing_labels": [
+      {
+        "kind": "Else",
+        "arity": []
+      },
+      {
+        "kind": "Block",
+        "arity": []
+      },
+      {
+        "kind": "Block",
+        "arity": [
+          "F64"
+        ]
+      },
+      {
+        "kind": "Block",
+        "arity": [
+          "I64"
+        ]
+      }
+    ]
+  },
+  "contract": {
+    "prestack": [
+      "I32",
+      "F64"
+    ],
+    "poststack": [
+      "I32",
+      "I32",
+      "F32",
+      "I32",
+      "I32",
+      "I32"
+    ]
+  },
+  "fragment": {
+    "file": "frag_7465953716347743870.bin",
+    "fragment_ctx": {
+      "types": {},
+      "locals": {},
+      "globals": {},
+      "calls": {},
+      "memories": {},
+      "tables": {},
+      "tags": {}
+    },
+    "external_branches": {},
+    "open_labels": []
+  },
+  "mock": {
+    "file": "mock_7465953716347743870.wasm"
+  }
+}
