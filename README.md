@@ -2,7 +2,8 @@
 
 This repository is the supplementary artifact for a paper (currently under anonymous, double-blind
 review at ICSE 2027) on **Waplant**, a code-transplantation technique for fuzzing production
-WebAssembly (Wasm) runtimes.
+WebAssembly (Wasm) runtimes. The prepared seed corpus `Bench2026` is attached in the following release 
+tag: [Bench2026](https://github.com/anonymous4icse2026/Waplant_Anonymous/releases/tag/v0.0.1).
 
 ## What Waplant does
 
